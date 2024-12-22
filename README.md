@@ -92,7 +92,7 @@ To compile and run this project, follow these steps:
 1. **Clean the Build**:
 
    ```
-   faa35@Fardin:/mnt/d/Winter 24/225/A5latest$ make clean
+   make clean
    ```
    output
    ```
@@ -104,7 +104,7 @@ To compile and run this project, follow these steps:
 2. **Compile the Project**:
 
    ```
-   faa35@Fardin:/mnt/d/Winter 24/225/A5latest$ make
+   make
    ```
    output
    ```
@@ -123,7 +123,7 @@ To compile and run this project, follow these steps:
 4. **Run the Program**:
 
    ```
-   faa35@Fardin:/mnt/d/Winter 24/225/A5latest$ ./dtest dataFile_100_16.txt
+   ./dtest dataFile_100_16.txt
    ```
 
    This runs the program with the input file `dataFile_100_16.txt`.
