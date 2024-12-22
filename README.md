@@ -84,3 +84,50 @@ The hash table is implemented as an array of pointers to `Profile` objects, with
 ### **Conclusion**
 This project successfully demonstrates the design and implementation of an efficient hash table using linear probing for collision resolution. The use of a custom hash function and robust exception handling ensured reliable performance for storing and retrieving user profiles. The statistical analysis highlights the hash table’s efficiency, making it a viable solution for scalable data storage systems.
 
+### **How to run this**
+
+
+To compile and run this project, follow these steps:
+
+1. **Clean the Build**:
+
+   ```
+   faa35@Fardin:/mnt/d/Winter 24/225/A5latest$ make clean
+   rm -f td *.o
+   ```
+
+   This removes any previously compiled object files and ensures a clean build.
+
+2. **Compile the Project**:
+
+   ```
+   faa35@Fardin:/mnt/d/Winter 24/225/A5latest$ make
+   g++ -Wall -c Dictionary.cpp
+   g++ -Wall -c hashFunctionTestDriver.cpp 
+   g++ -Wall -c ElementDoesNotExistException.cpp
+   g++ -Wall -c ElementAlreadyExistsException.cpp
+   g++ -Wall -c EmptyDataCollectionException.cpp
+   g++ -Wall -c UnableToInsertException.cpp
+   g++ -Wall -c Profile.cpp
+   g++ -Wall -o dtest Dictionary.o hashFunctionTestDriver.o ElementDoesNotExistException.o ElementAlreadyExistsException.o EmptyDataCollectionException.o UnableToInsertException.o Profile.o
+   ```
+
+   This compiles all source files into object files and links them into the executable `dtest`.
+
+3. **Run the Program**:
+
+   ```
+   faa35@Fardin:/mnt/d/Winter 24/225/A5latest$ ./dtest dataFile_100_16.txt
+   ```
+
+   This runs the program with the input file `dataFile_100_16.txt`.
+
+4. **Expected Outputs**:
+
+   - The program will print each indexing key being processed.
+   - It will display the contents of the hash table.
+   - A histogram and statistical analysis will summarize the hash function’s performance.
+
+###
+
+
