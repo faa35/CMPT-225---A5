@@ -1,4 +1,4 @@
-**Project Title:** Efficient Hash Table Implementation with Collision Handling for Optimized Data Storage and Retrieval
+**Project Title:** Hashmap Implementation in C++ Using Linear Probing for Collision Handling
 
 ### **Project Overview**
 This project focuses on the implementation of a hash table data structure using linear probing for collision resolution. The primary goal was to design a dictionary-like structure capable of efficiently storing and retrieving unique user profiles, identified by their usernames. This implementation demonstrates how to handle collisions in hash tables while maintaining optimized data storage and retrieval performance. The project also evaluates the efficiency of the implemented hash table by processing a dataset of indexing keys from a text file.
