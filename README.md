@@ -93,6 +93,9 @@ To compile and run this project, follow these steps:
 
    ```
    faa35@Fardin:/mnt/d/Winter 24/225/A5latest$ make clean
+   ```
+   output
+   ```
    rm -f td *.o
    ```
 
@@ -102,6 +105,9 @@ To compile and run this project, follow these steps:
 
    ```
    faa35@Fardin:/mnt/d/Winter 24/225/A5latest$ make
+   ```
+   output
+   ```
    g++ -Wall -c Dictionary.cpp
    g++ -Wall -c hashFunctionTestDriver.cpp 
    g++ -Wall -c ElementDoesNotExistException.cpp
@@ -114,7 +120,7 @@ To compile and run this project, follow these steps:
 
    This compiles all source files into object files and links them into the executable `dtest`.
 
-3. **Run the Program**:
+4. **Run the Program**:
 
    ```
    faa35@Fardin:/mnt/d/Winter 24/225/A5latest$ ./dtest dataFile_100_16.txt
@@ -122,11 +128,7 @@ To compile and run this project, follow these steps:
 
    This runs the program with the input file `dataFile_100_16.txt`.
 
-4. **Expected Outputs**:
 
-   - The program will print each indexing key being processed.
-   - It will display the contents of the hash table.
-   - A histogram and statistical analysis will summarize the hash function’s performance.
 
 ###
 
